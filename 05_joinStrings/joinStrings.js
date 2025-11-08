@@ -1,16 +1,19 @@
-/*
- First name: Carlos
- Last name: Stevenson
- This year: 1965
- Birth year: 1947
 
+let firstName = "Carlos";
+let lastName = "Stevenson";
+let thisYear = 1965;
+const birthYear = 1947;
+let fullName = firstName + " " + lastName;
+let age = thisYear - birthYear;
+
+/*
  The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
 */
 
 // Add your code right below, good luck!
 
-
-
+let greeting = "Hello! My name is" + " " + firstName + " " + lastName + " " + "and I am" + " " + (thisYear - birthYear) + " " + "years old."
+ 
 
 
 // Do not change this
